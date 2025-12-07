@@ -1,0 +1,57 @@
+/* 1. Largura fixa de 940px e centralização */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* 2. Título principal */
+h1 {
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 3. Subtítulos */
+h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+/* 4. Estilo base das figures */
+figure {
+    text-align: center;
+    background-color: whitesmoke;
+    color: grey;
+    padding: 15px;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+/* 5. Imagens dentro de figure ocupam a largura total */
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 6. Legendas */
+figcaption {
+    margin-top: 10px;
+}
+
+/* 7. FIGURA DA MATRIZ — 550px, centralizada */
+figure.matriz {
+    width: 550px;
+    margin: 30px auto;
+}
+
+/* 8. FIGURA DA FAMÍLIA — 275px, direita, texto ao redor */
+figure.familia {
+    width: 275px;
+    float: right;
+    margin: 0 0 20px 20px;
+}
