@@ -1,0 +1,53 @@
+/* Corpo centralizado */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* ESTILO DE TÍTULO PRINCIPAL (para h1 e h2 de contato) */
+.titulo-principal {
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ESTILO DE SUBTÍTULOS (História e Diferenciais) */
+.subtitulo {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+/* Figures */
+figure {
+    text-align: center;
+    background-color: whitesmoke;
+    color: grey;
+    padding: 15px;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+/* Figura: matriz */
+figure.matriz {
+    width: 550px;
+    margin: 30px auto;
+}
+
+/* Figura: família */
+figure.familia {
+    width: 275px;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
